@@ -1,12 +1,15 @@
 [package]
 name = "pi_weight"
 version = "0.1.0"
-authors = ["zmythleo <zmythleo@gmail.com>"]
-edition = "2018"
+authors = ["suncy <530739162@qq.com>"]
+edition = "2021"
+description = "Weight tree, Used to store content with weight values"
+repository = "https://github.com/GaiaWorld/pi_weight.git"
+license = "MIT OR Apache-2.0"
+keywords = ["pi", "weight", "taskpool",  "pi_weight"]
 
 [dependencies]
-pi_ext_heap = {path="../pi_ext_heap"}
-
+pi_ext_heap = "0.1"
 
 [dev-dependencies]
 pcg_rand = "0.13"

@@ -73,7 +73,7 @@
 
 use std::{cmp::{Ord, Ordering, PartialOrd}, fmt, ops::{Deref, DerefMut}};
 
-use ext_heap::*;
+use pi_ext_heap::*;
 
 /// 带权重统计键的条目
 pub struct WeightItem<T> {
